@@ -1,4 +1,3 @@
-#
 # <mark>Git commands</mark>
 ## <mark>Git initialize</mark>
 1. git init : Working directory where .git is been created and a new repository is created on the local
@@ -158,4 +157,4 @@ when there is a file abc.txt and two developers use the same file for upgrading 
 !!! Hope you enjoyed learning !!!
 
 
-![Thumbsup](https://github.com/NithiyaJoseph/GIT/blob/main/Thumbsup.jpg)
+![Thumbsup](https://github.com/NithiyaJoseph/GIT/blob/main/Thumbsup.jpg?raw=true)
