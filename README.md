@@ -83,6 +83,7 @@ Example: your working on the feature branch and your teammate asks to check the 
 26. git revert commitid
 
 Example: i have created file1.txt and file2.txt
+
 |file1.txt|file2.txt|
 |---------|---------|
 |version1 :Ferrari|version1 :BMW|
@@ -92,6 +93,7 @@ Now i commit it : git commit -m "Ferrari version1 file1"
 git commit -m "BMW version1 file2"
 
 Again i make changes by adding new data
+
 |file1.txt|file2.txt|
 |---------|---------|
 |version1 :Ferrari|version1 :BMW|
@@ -131,6 +133,7 @@ commitid 3 Ferrari version1 file1
 recent commit is rollbacked and if want to rollback to the commitid 3 then HEAD~3
 
 Open your file2 and check only version1 is available after rollback
+
 |file2.txt|
 |---------|
 |version1 :BMW|
