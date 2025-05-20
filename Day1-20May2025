@@ -1,0 +1,38 @@
+
+#Azure DevOps
+Azure DevOps (global link)- https://dev.azure.com
+Azure - It is the product of Microsoft
+Azure DevOps platform - It is an PAAS(Platform as a Service)
+SAAS - 
+IAAS -
+Azure Devops-->organisation-->projects-->Repos?
+Repo/Repository - whenever the developers create their code in local like visual studio they push/store their code in a common repository here we are using a private repository as azure repo.
+To send the code from local to remote - git commands
+To develop your code - you require a platform for that we use visual studio code --> download from google
+
+#Actual working:
+azure repos--> Repository(project A) client has given you
+you have to create branches
+by default main branch will be created along with the repo --> main production code will be stored
+you can also create master branch to store your prod code
+
+#creation of feature branch
+why feature branch --> To create new features or updation
+1) feature branch is created based out of main branch
+2) clone your remote code to the local (git bash, vs code) there is an option as clone icon-->click it -->clone in vs code-->open in vs code-->in your local create a new folder and then save it
+3) In VS code go to file-->open folder--> make your code changes-->then open terminal by clicking view option in vs code or click on the thrid icon button on top
+cd reponame/path (change directory)
+#basic git commands
+1) git status --> it will show what are the changes i have made to my code
+for that git should be downloaded in vs code --> go to extensions on left side -->search for git it will display gitlens or gitKraken after that do git config steps
+2) git add . --> adding our changes
+3) git commit -m "your message what you have committed"
+4) git push origin <branchname> 
+
+Environments :
+Usually in a project there will be commonly three environments or 4 according to their project
+All the development code will happen in DEV environment
+All the developed code will be tested in PRE-PROD/QA environment
+All the tested code will be moved to PRODuction environment
+In some projects there will be UAT environment - User Acceptance Testing
+#I Love You Bhava#
